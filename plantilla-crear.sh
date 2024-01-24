@@ -12,11 +12,11 @@ echo 'codigo html del reproductor de mega'
 read enlace
 echo '<html>' > plantilla1.txt
 echo '<head>' > plantilla2.txt
-echo '<title>URUPelis - '$titulo'</title>' > plantilla3.txt
+echo '<title>URUPeliss - '$titulo'</title>' > plantilla3.txt
 echo '</head>' > plantilla4.txt
 echo '<body background="https://urupeliss.github.io/img/a.jpeg">' > plantilla5.txt
 echo '<a href="https://urupeliss.github.io/index.html"> <img src="https://urupeliss.github.io/img/logo_original.png" width="280" height="160"></a>' > plantilla6.txt
-echo '<center><h1>URUPelis - '$titulo'</h1></center>' > plantilla7.txt
+echo '<center><h1>URUPeliss - '$titulo'</h1></center>' > plantilla7.txt
 echo '<center>'$enlace'</center>' > plantilla8.txt
 echo '</body>' > plantilla9.txt
 echo '</html>' > plantilla10.txt
