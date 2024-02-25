@@ -12,7 +12,7 @@ read titulo
 echo 'Codigo html del reproductor de mega'
 read codigo
 echo 'Codigo html del reproductor de google drive'
-read googledrive
+read codigogoogle
 clear
 echo '<html>' > plantilla1.txt
 echo '<head>' > plantilla2.txt
