@@ -65,14 +65,13 @@ echo '' > plantilla49.txt
 echo '<section>' > plantilla50.txt
 echo '<center><h2>'$titulo'</h2></center>' > plantilla51.txt
 echo '<center>'$codigo'</center>' > plantilla52.txt
-echo '' > plantilla53.txt
-echo '</section>' > plantilla54.txt
+echo '<center><h2>Opcion 2</h2></center>' > plantilla53.txt
+echo '<center>'$codigogoogle'</center>' > plantilla54.txt
 echo '' > plantilla55.txt
-echo '</body>' > plantilla56.txt
-echo '</html>' > plantilla57.txt
-echo '<center><h2>Opcion 2</h2></center>' > plantilla58.txt
-echo '<center>'$codigogoogle'</center>' > plantilla59.txt
-
+echo '</section>' > plantilla56.txt
+echo '' > plantilla57.txt
+echo '</body>' > plantilla58.txt
+echo '</html>' > plantilla59.txt
 cat plantilla1.txt plantilla2.txt plantilla3.txt plantilla4.txt plantilla5.txt plantilla6.txt plantilla7.txt plantilla8.txt plantilla9.txt plantilla10.txt plantilla11.txt  plantilla12.txt plantilla13.txt plantilla14.txt plantilla15.txt plantilla16.txt plantilla17.txt plantilla18.txt plantilla19.txt plantilla20.txt plantilla21.txt plantilla22.txt plantilla23.txt plantilla24.txt plantilla25.txt plantilla26.txt plantilla27.txt plantilla28.txt plantilla29.txt plantilla30.txt plantilla31.txt plantilla32.txt plantilla33.txt plantilla34.txt plantilla35.txt plantilla36.txt plantilla37.txt plantilla38.txt plantilla39.txt plantilla40.txt plantilla41.txt plantilla42.txt plantilla43.txt plantilla44.txt plantilla45.txt plantilla46.txt plantilla47.txt plantilla48.txt plantilla49.txt plantilla50.txt plantilla51.txt plantilla52.txt plantilla53.txt plantilla54.txt plantilla55.txt plantilla56.txt plantilla57.txt plantilla58.txt plantilla59.txt > $nombrehtml.html
 sudo rm plantilla1.txt plantilla2.txt plantilla3.txt plantilla4.txt plantilla5.txt plantilla6.txt plantilla7.txt plantilla8.txt plantilla9.txt plantilla10.txt plantilla11.txt  plantilla12.txt plantilla13.txt plantilla14.txt plantilla15.txt plantilla16.txt plantilla17.txt plantilla18.txt plantilla19.txt plantilla20.txt plantilla21.txt plantilla22.txt plantilla23.txt plantilla24.txt plantilla25.txt plantilla26.txt plantilla27.txt plantilla28.txt plantilla29.txt plantilla30.txt plantilla31.txt plantilla32.txt plantilla33.txt plantilla34.txt plantilla35.txt plantilla36.txt plantilla37.txt plantilla38.txt plantilla39.txt plantilla40.txt plantilla41.txt plantilla42.txt plantilla43.txt plantilla44.txt plantilla45.txt plantilla46.txt plantilla47.txt plantilla48.txt plantilla49.txt plantilla50.txt plantilla51.txt plantilla52.txt plantilla53.txt plantilla54.txt plantilla55.txt plantilla56.txt plantilla57.txt plantilla58.txt plantilla59.txt
 clear
