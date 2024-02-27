@@ -76,8 +76,6 @@ echo '' > plantilla55.txt
 echo '<section>' > plantilla56.txt
 echo '<center><h2>'$titulo'</h2></center>' > plantilla57.txt
 echo '<center>'$codigo'</center>' > plantilla58.txt
-echo '<center><h2>Opcion 2</h2></center>' > plantilla59.txt
-echo '<center>'$codigo'</center>' > plantilla60.txt
 echo '' > plantilla61.txt
 echo '</section>' > plantilla62.txt
 echo '' > plantilla63.txt
