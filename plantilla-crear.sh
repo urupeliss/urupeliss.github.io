@@ -18,7 +18,7 @@ echo '<head>' > plantilla2.txt
 echo '    <link rel="icon" href="https://urupeliss.github.io/img/logo_original.png" type="image/x-icon">' > plantilla3.txt
 echo '    <meta charset="UTF-8">' > plantilla4.txt
 echo '    <meta name="viewport" content="width=device-width, initial-scale=1.0">' > plantilla5.txt
-echo '    <title>Urupeliss - '$titulo' </title>' > plantilla6.txt
+echo '    <title>Urupeliss - '$titulo pelicula completa en español latino' </title>' > plantilla6.txt
 echo '   <style>' > plantilla7.txt
 echo '        body {' > plantilla8.txt
 echo '            font-family: Arial, sans-serif;' > plantilla9.txt
@@ -75,7 +75,7 @@ echo '    <h1>Urupeliss - una plataforma para todos</h1>' > plantilla59.txt
 echo '</header>' > plantilla60.txt
 echo '' > plantilla61.txt
 echo '<section>' > plantilla62.txt
-echo '<center><h2>'$titulo'</h2></center>' > plantilla63.txt
+echo '<center><h2>'$titulo pelicula completa en español latino'</h2></center>' > plantilla63.txt
 echo '<center>'$codigo'</center>' > plantilla64.txt
 echo '' > plantilla65.txt
 echo '</section>' > plantilla66.txt
