@@ -10,7 +10,7 @@ read nombrehtml
 echo 'Nombre de la pelicula que va en el titulo y arriba del reproductor'
 read titulo
 echo 'Codigo html del reproductor de google drive o dailymotion'
-echo '[Necesario que sea de 649x339 o 649% 50%]'
+echo '[Necesario que sea de 649x339 o 50% 100%]'
 read codigo
 clear
 echo '<html>' > plantilla1.txt
