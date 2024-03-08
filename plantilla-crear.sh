@@ -9,7 +9,7 @@ echo 'Nombre del archivo html'
 read nombrehtml
 echo 'Nombre de la pelicula que va en el titulo y arriba del reproductor'
 read titulo
-echo 'Codigo html del reproductor de google drive o dailymotion'
+echo 'Codigo html del reproductor de google drive'
 echo '[Necesario que sea de 649x339 o 50% 100%]'
 read codigo
 echo 'Pon el enlace que esta en el codigo'
@@ -72,7 +72,7 @@ echo '</head>' > plantilla54.txt
 echo '<body>' > plantilla55.txt
 echo '' > plantilla56.txt
 echo '<header>' > plantilla57.txt
-echo '    <img src="https://urupeliss.github.io/img/logo_original.png" width="320" height="160">' > plantilla58.txt
+echo '<a href="https://urupeliss.github.io"> <img src="https://urupeliss.github.io/img/logo_original.png" width="320" height="160"></a>' > plantilla58.txt
 echo '    <h1>Urupeliss - una plataforma para todos</h1>' > plantilla59.txt
 echo '</header>' > plantilla60.txt
 echo '' > plantilla61.txt
