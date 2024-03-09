@@ -1,0 +1,14 @@
+<script>
+        // Función para redirigir si es un dispositivo móvil
+        function redirigirSiEsMovil() {
+            // Verificar si el ancho de la pantalla es menor que 600px (puedes ajustar este valor según tus necesidades)
+            if (window.innerWidth <= 600) {
+                // Redirigir a la página para dispositivos móviles
+                window.location.href = ''; // Reemplaza 'pagina-movil.html' con la URL de tu página móvil
+            }
+        }
+
+        // Llamar a la función cuando se carga la página
+        window.onload = redirigirSiEsMovil;
+    </script>
+
