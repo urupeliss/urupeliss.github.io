@@ -75,7 +75,7 @@ echo '<header>' > plantilla57.txt
 echo '<a href="https://urupeliss.github.io"> <img src="https://urupeliss.github.io/img/logo_original.png" width="320" height="160"></a>' > plantilla58.txt
 echo '    <h1>Urupeliss - una plataforma para todos</h1>' > plantilla59.txt
 echo '</header>' > plantilla60.txt
-echo '' > plantilla61.txt
+echo '<nav><center><a href="https://websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis"><img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=15542"></a></center></nav>' > plantilla61.txt
 echo '<section>' > plantilla62.txt
 echo '<center><h2>'$titulo pelicula completa en español latino'</h2></center>' > plantilla63.txt
 echo '<center>'$codigo'</center>' > plantilla64.txt
