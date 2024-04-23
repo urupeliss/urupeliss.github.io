@@ -77,7 +77,7 @@ echo '</header>' > plantilla60.txt
 echo '<section>' > plantilla61.txt
 echo '<center><h2>'$titulo pelicula completa en $idioma'</h2></center>' > plantilla62.txt
 echo '<center><iframe src="'$enlacedrive'" width="649" height="339" allow="autoplay"></iframe></center>' > plantilla63.txt
-echo '<center><a href='$enlacedrive'> <h3>Pantalla Completa</h3></center>' > plantilla64.txt
+echo '<center><a href='$enlacedrive'> <h3>Pantalla Completa</h3></a></center>' > plantilla64.txt
 echo '</section>' > plantilla65.txt
 echo '<redes>' > plantilla66.txt
 echo '<center><a href="https://twitter.com/urupeliss?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @urupeliss</a></center><center><a href="https://www.facebook.com/profile.php?id=61557434661490"> <img src="https://urupeliss.github.io/img/fb-icono.png" width="39" height="30"></a></center>' > plantilla67.txt
