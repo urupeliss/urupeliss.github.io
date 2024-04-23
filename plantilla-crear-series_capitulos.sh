@@ -28,11 +28,8 @@ echo 'Numero de capitulo?'
 read capitulo
 echo 'Español latino o Castellano?'
 read idioma
-echo 'Codigo html del reproductor de google drive'
-echo '[Necesario que sea de 649x339 o 50% 100%]'
-read codigo
-echo 'Pon el enlace que esta en el codigo'
-read enlacepcdrive
+echo 'Pon el enlace que esta en el codigo del drive'
+read enlacedrive
 clear
 echo '<html>' > plantilla1.txt
 echo '<head>' > plantilla2.txt
@@ -94,20 +91,19 @@ echo '<header>' > plantilla57.txt
 echo '<a href="https://urupeliss.github.io"> <img src="https://urupeliss.github.io/img/logo_original.png" width="320" height="160"></a>' > plantilla58.txt
 echo '    <h1>Urupeliss - una plataforma para todos</h1>' > plantilla59.txt
 echo '</header>' > plantilla60.txt
-echo '<nav><center><img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=15542"></img></center></nav>' > plantilla61.txt
-echo '<section>' > plantilla62.txt
-echo '<center><h2>'Urupeliss - $titulo' Temporada:'$temporada' Capitulo:'$capitulo' en '$idioma'</h2></center>' > plantilla63.txt
-echo '<center>'$codigo'</center>' > plantilla64.txt
-echo '<center><a href='$enlacepcdrive'> <h3>Pantalla Completa</h3></center>' > plantilla65.txt
-echo '</section>' > plantilla66.txt
-echo '<redes>' > plantilla67.txt
-echo '<center><a href="https://twitter.com/urupeliss?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @urupeliss</a></center><center><a href="https://www.facebook.com/profile.php?id=61557434661490"> <img src="https://urupeliss.github.io/img/fb-icono.png" width="39" height="30"></a></center>' > plantilla68.txt
-echo '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>' > plantilla69.txt
-echo '</redes>' > plantilla70.txt
-echo '</body>' > plantilla71.txt
-echo '</html>' > plantilla72.txt
-cat plantilla1.txt plantilla2.txt plantilla3.txt plantilla4.txt plantilla5.txt plantilla6.txt plantilla7.txt plantilla8.txt plantilla9.txt plantilla10.txt plantilla11.txt  plantilla12.txt plantilla13.txt plantilla14.txt plantilla15.txt plantilla16.txt plantilla17.txt plantilla18.txt plantilla19.txt plantilla20.txt plantilla21.txt plantilla22.txt plantilla23.txt plantilla24.txt plantilla25.txt plantilla26.txt plantilla27.txt plantilla28.txt plantilla29.txt plantilla30.txt plantilla31.txt plantilla32.txt plantilla33.txt plantilla34.txt plantilla35.txt plantilla36.txt plantilla37.txt plantilla38.txt plantilla39.txt plantilla40.txt plantilla41.txt plantilla42.txt plantilla43.txt plantilla44.txt plantilla45.txt plantilla46.txt plantilla47.txt plantilla48.txt plantilla49.txt plantilla50.txt plantilla51.txt plantilla52.txt plantilla53.txt plantilla54.txt plantilla55.txt plantilla56.txt plantilla57.txt plantilla58.txt plantilla59.txt plantilla60.txt plantilla61.txt plantilla62.txt plantilla63.txt plantilla64.txt plantilla65.txt plantilla66.txt plantilla67.txt plantilla68.txt > $nombrehtml.html
-sudo rm plantilla1.txt plantilla2.txt plantilla3.txt plantilla4.txt plantilla5.txt plantilla6.txt plantilla7.txt plantilla8.txt plantilla9.txt plantilla10.txt plantilla11.txt  plantilla12.txt plantilla13.txt plantilla14.txt plantilla15.txt plantilla16.txt plantilla17.txt plantilla18.txt plantilla19.txt plantilla20.txt plantilla21.txt plantilla22.txt plantilla23.txt plantilla24.txt plantilla25.txt plantilla26.txt plantilla27.txt plantilla28.txt plantilla29.txt plantilla30.txt plantilla31.txt plantilla32.txt plantilla33.txt plantilla34.txt plantilla35.txt plantilla36.txt plantilla37.txt plantilla38.txt plantilla39.txt plantilla40.txt plantilla41.txt plantilla42.txt plantilla43.txt plantilla44.txt plantilla45.txt plantilla46.txt plantilla47.txt plantilla48.txt plantilla49.txt plantilla50.txt plantilla51.txt plantilla52.txt plantilla53.txt plantilla54.txt plantilla55.txt plantilla56.txt plantilla57.txt plantilla58.txt plantilla59.txt plantilla60.txt plantilla61.txt plantilla62.txt plantilla63.txt plantilla64.txt plantilla65.txt plantilla66.txt plantilla67.txt plantilla68.txt plantilla69.txt plantilla70.txt plantilla71.txt plantilla72.txt
+echo '<section>' > plantilla61.txt
+echo '<center><h2>'Urupeliss - $titulo' Temporada:'$temporada' Capitulo:'$capitulo' en '$idioma'</h2></center>' > plantilla62.txt
+echo '<center><iframe src="'$enlacedrive'" width="649" height="339" allow="autoplay"></iframe></center>' > plantilla63.txt
+echo '<center><a href='$enlacedrive'> <h3>Pantalla Completa</h3></center>' > plantilla64.txt
+echo '</section>' > plantilla65.txt
+echo '<redes>' > plantilla66.txt
+echo '<center><a href="https://twitter.com/urupeliss?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @urupeliss</a></center><center><a href="https://www.facebook.com/profile.php?id=61557434661490"> <img src="https://urupeliss.github.io/img/fb-icono.png" width="39" height="30"></a></center>' > plantilla67.txt
+echo '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>' > plantilla68.txt
+echo '</redes>' > plantilla69.txt
+echo '</body>' > plantilla70.txt
+echo '</html>' > plantilla71.txt
+cat plantilla1.txt plantilla2.txt plantilla3.txt plantilla4.txt plantilla5.txt plantilla6.txt plantilla7.txt plantilla8.txt plantilla9.txt plantilla10.txt plantilla11.txt  plantilla12.txt plantilla13.txt plantilla14.txt plantilla15.txt plantilla16.txt plantilla17.txt plantilla18.txt plantilla19.txt plantilla20.txt plantilla21.txt plantilla22.txt plantilla23.txt plantilla24.txt plantilla25.txt plantilla26.txt plantilla27.txt plantilla28.txt plantilla29.txt plantilla30.txt plantilla31.txt plantilla32.txt plantilla33.txt plantilla34.txt plantilla35.txt plantilla36.txt plantilla37.txt plantilla38.txt plantilla39.txt plantilla40.txt plantilla41.txt plantilla42.txt plantilla43.txt plantilla44.txt plantilla45.txt plantilla46.txt plantilla47.txt plantilla48.txt plantilla49.txt plantilla50.txt plantilla51.txt plantilla52.txt plantilla53.txt plantilla54.txt plantilla55.txt plantilla56.txt plantilla57.txt plantilla58.txt plantilla59.txt plantilla60.txt plantilla61.txt plantilla62.txt plantilla63.txt plantilla64.txt plantilla65.txt plantilla66.txt plantilla67.txt plantilla68.txt plantilla69.txt plantilla70.txt plantilla71.txt> $nombrehtml.html
+sudo rm plantilla1.txt plantilla2.txt plantilla3.txt plantilla4.txt plantilla5.txt plantilla6.txt plantilla7.txt plantilla8.txt plantilla9.txt plantilla10.txt plantilla11.txt  plantilla12.txt plantilla13.txt plantilla14.txt plantilla15.txt plantilla16.txt plantilla17.txt plantilla18.txt plantilla19.txt plantilla20.txt plantilla21.txt plantilla22.txt plantilla23.txt plantilla24.txt plantilla25.txt plantilla26.txt plantilla27.txt plantilla28.txt plantilla29.txt plantilla30.txt plantilla31.txt plantilla32.txt plantilla33.txt plantilla34.txt plantilla35.txt plantilla36.txt plantilla37.txt plantilla38.txt plantilla39.txt plantilla40.txt plantilla41.txt plantilla42.txt plantilla43.txt plantilla44.txt plantilla45.txt plantilla46.txt plantilla47.txt plantilla48.txt plantilla49.txt plantilla50.txt plantilla51.txt plantilla52.txt plantilla53.txt plantilla54.txt plantilla55.txt plantilla56.txt plantilla57.txt plantilla58.txt plantilla59.txt plantilla60.txt plantilla61.txt plantilla62.txt plantilla63.txt plantilla64.txt plantilla65.txt plantilla66.txt plantilla67.txt plantilla68.txt plantilla69.txt plantilla70.txt plantilla71.txt
 
 echo '==============================='
 echo 'Menu de plantillas de urupeliss'
