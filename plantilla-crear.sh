@@ -16,7 +16,7 @@ read enlacedrive
 clear
 echo '<html>' > plantilla1.txt
 echo '<head>' > plantilla2.txt
-echo '    <link rel="icon" href="https://urupeliss.github.io/img/logo_original.png" type="image/x-icon">' > plantilla3.txt
+echo '    <link rel="icon" href="img/logo_original.png" type="image/x-icon">' > plantilla3.txt
 echo '    <meta charset="UTF-8">' > plantilla4.txt
 echo '    <meta name="viewport" content="width=device-width, initial-scale=1.0">' > plantilla5.txt
 echo '    <title>Urupeliss - '$titulo pelicula completa en $idioma' </title>' > plantilla6.txt
@@ -71,7 +71,7 @@ echo '</head>' > plantilla54.txt
 echo '<body>' > plantilla55.txt
 echo '' > plantilla56.txt
 echo '<header>' > plantilla57.txt
-echo '<a href="https://urupeliss.github.io"> <img src="https://urupeliss.github.io/img/logo_original.png" width="320" height="160"></a>' > plantilla58.txt
+echo '<a href="https://urupeliss.github.io"> <img src="img/logo_original.png" width="320" height="160"></a>' > plantilla58.txt
 echo '    <h1>Urupeliss - una plataforma para todos</h1>' > plantilla59.txt
 echo '</header>' > plantilla60.txt
 echo '<section>' > plantilla61.txt
@@ -80,7 +80,7 @@ echo '<center><iframe src="'$enlacedrive'" width="649" height="339" allow="autop
 echo '<center><a href='$enlacedrive'> <h3>Pantalla Completa</h3></a></center>' > plantilla64.txt
 echo '</section>' > plantilla65.txt
 echo '<redes>' > plantilla66.txt
-echo '<center><a href="https://twitter.com/urupeliss?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @urupeliss</a></center><center><a href="https://www.facebook.com/profile.php?id=61557434661490"> <img src="https://urupeliss.github.io/img/fb-icono.png" width="39" height="30"></a></center>' > plantilla67.txt
+echo '<center><a href="https://twitter.com/urupeliss?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @urupeliss</a></center><center><a href="https://www.facebook.com/profile.php?id=61557434661490"> <img src="img/fb-icono.png" width="39" height="30"></a></center>' > plantilla67.txt
 echo '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>' > plantilla68.txt
 echo '</redes>' > plantilla69.txt
 echo '</body>' > plantilla70.txt
