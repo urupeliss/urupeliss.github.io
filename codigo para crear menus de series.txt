@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="icon" href="https://urupeliss.github.io/img/logo_original.png" type="image/x-icon">
+    <link rel="icon" href="img/logo_original.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urupeliss - $titulo T$temporada en $idioma </title>
@@ -55,7 +55,7 @@
 <body>
 
 <header>
-<a href="https://urupeliss.github.io"> <img src="https://urupeliss.github.io/img/logo_original.png" width="320" height="160"></a>
+<a href="https://urupeliss.github.io"> <img src="img/logo_original.png" width="320" height="160"></a>
     <h1>Urupeliss - una plataforma para todos</h1>
 </header>
 <nav><center><img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=15542"></img></center></nav>
@@ -65,7 +65,7 @@
 <center><a href=$enlacepcdrive> <h3>Pantalla Completa</h3></center>
 </section>
 <redes>
-<center><a href="https://twitter.com/urupeliss?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @urupeliss</a></center><center><a href="https://www.facebook.com/profile.php?id=61557434661490"> <img src="https://urupeliss.github.io/img/fb-icono.png" width="39" height="30"></a></center>
+<center><a href="https://twitter.com/urupeliss?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @urupeliss</a></center><center><a href="https://www.facebook.com/profile.php?id=61557434661490"> <img src="img/fb-icono.png" width="39" height="30"></a></center>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </redes>
 </body>
