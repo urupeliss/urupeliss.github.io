@@ -16,7 +16,7 @@ read enlacedrive
 clear
 echo '<html>' > plantilla1.txt
 echo '<head>' > plantilla2.txt
-echo '    <link rel="icon" href="/img/logo_original.png" type="image/x-icon">' > plantilla3.txt
+echo '    <link rel="icon" href="img/urupeliss-appicon.png" type="image/x-icon">' > plantilla3.txt
 echo '    <meta charset="UTF-8">' > plantilla4.txt
 echo '    <meta name="viewport" content="width=device-width, initial-scale=1.0">' > plantilla5.txt
 echo '    <title>URUPeliss - '$titulo pelicula completa en $idioma' </title>' > plantilla6.txt
