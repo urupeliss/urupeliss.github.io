@@ -73,7 +73,7 @@ echo '' > plantilla56.txt
 echo '<header>' > plantilla57.txt
 echo '<a href="https://urupeliss.github.io"> <img src="/img/logo_original.png" width="320" height="160"></a>' > plantilla58.txt
 echo '    <h1>URUPeliss - una plataforma para todos</h1>' > plantilla59.txt
-echo '</header>' > plantilla60.txt
+echo '</header><nav>[<a href="img/urupeliss.apk">¡Descarga la nueva app para celulares de URUPeliss!</a>]</nav>' > plantilla60.txt
 echo '<section>' > plantilla61.txt
 echo '<center><h2>'$titulo pelicula completa en $idioma'</h2></center>' > plantilla62.txt
 echo '<center><iframe src="'$enlacedrive'" width="649" height="339" allow="autoplay"></iframe></center>' > plantilla63.txt
