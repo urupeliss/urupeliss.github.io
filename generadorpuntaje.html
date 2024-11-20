@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regenerar Imagen Automáticamente</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #mi-imagen {
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagen Regenerada Automáticamente</h1>
+    <p>Si la imagen se elimina, se regenerará automáticamente.</p>
+
+    <!-- La imagen será generada automáticamente si no está presente -->
+    <script>
+        // Función para crear la imagen
+        function crearImagen() {
+            // Definir la URL de la imagen
+            const imagenURL = 'https://example.com/tu-imagen.jpg'; // Cambia esta URL por la de tu imagen
+
+            // Crear el elemento de imagen
+            const imagen = document.createElement('img');
+            imagen.src = imagenURL;
+            imagen.id = 'mi-imagen'; // ID único para poder identificarla
+            imagen.alt = 'Imagen regenerada';
+            imagen.style.width = '300px'; // Ajusta el tamaño si lo deseas
+            imagen.style.height = 'auto'; // Mantiene la proporción de la imagen
+
+            // Insertar la imagen en el body de la página
+            document.body.appendChild(imagen);
+        }
+
+        // Configuración del MutationObserver
+        const observer = new MutationObserver(function(mutationsList) {
+            for (let mutation of mutationsList) {
+                // Verificar si la imagen ha sido eliminada
+                if (mutation.type === 'childList') {
+                    const imagen = document.getElementById('mi-imagen');
+                    // Si la imagen no existe, la volvemos a crear
+                    if (!imagen) {
+                        console.log('Imagen eliminada, regenerando...');
+                        crearImagen(); // Regenerar la imagen
+                    }
+                }
+            }
+        });
+
+        // Configuración para observar cambios en el DOM
+        const config = { childList: true, subtree: true };
+
+        // Iniciar el observer en el body del documento
+        observer.observe(document.body, config);
+
+        // Verificar si la imagen ya existe, si no, crearla automáticamente al cargar la página
+        if (!document.getElementById('mi-imagen')) {
+            crearImagen(); // Llamar a la función de creación de imagen si no existe
+        }
+    </script>
+</body>
+</html>
