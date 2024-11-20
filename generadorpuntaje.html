@@ -16,11 +16,29 @@
             width: 300px;
             height: auto;
         }
+
+        #desactivar-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #desactivar-btn:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <h1>Imagen Regenerada Automáticamente</h1>
     <p>Si la imagen se elimina, se regenerará automáticamente.</p>
+
+    <!-- Botón para desactivar la regeneración automática -->
+    <button id="desactivar-btn">Desactivar regeneración automática</button>
 
     <!-- La imagen será generada automáticamente si no está presente -->
     <script>
@@ -66,6 +84,15 @@
         if (!document.getElementById('mi-imagen')) {
             crearImagen(); // Llamar a la función de creación de imagen si no existe
         }
+
+        // Función para desconectar el MutationObserver
+        function desactivarRegeneracion() {
+            observer.disconnect();
+            console.log('Regeneración automática desactivada');
+        }
+
+        // Asignar la función al botón
+        document.getElementById('desactivar-btn').addEventListener('click', desactivarRegeneracion);
     </script>
 </body>
 </html>
