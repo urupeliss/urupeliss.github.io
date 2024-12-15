@@ -3,3 +3,9 @@
         <source src="https://download1339.mediafire.com/caz7pim4tasgdiHcWX-xK3dJ3UoARsR-Gu43wylbelbf90Bo0cLddhko8FNAn8DT6EbOq4SZs72sNCVbQcDoDk2Aic_1ZIRnsI7rUzSueB1H4_Jhq9k1moDbizP9qiTIzBnENmVgweQIZ6-z2EDS68X0UY_KbrZzjojFzIlc-Sp7/oj6k33bsc65qhr5/suban-el-volumen-castellano.mp4" type="video/mp4">
         Tu navegador no soporta el elemento de video.
     </video>
+    <script>
+        const video = document.getElementById('miVideo');
+        video.addEventListener('loadeddata', () => {
+            video.requestFullscreen();
+        });
+    </script
