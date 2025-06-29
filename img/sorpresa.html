@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorpresa!!</title>
+    <style>
+        /* Estilos para el contenedor */
+        .container {
+            width: 300px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para la caja de texto */
+        .password-box {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Estilos para el botón de revelar */
+        .reveal-btn {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Estilos para el contenido oculto */
+        .hidden-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="main-container">
+        <h2>Fecha de cuando nos conocimos</h2>
+        <h2>Debe ser con este formato ej:1enero2025</h2>
+        <input type="password" class="password-box" id="password" placeholder="Ingrese la fecha">
+        <button class="reveal-btn" id="reveal-btn">Revelar</button>
+    </div>
+
+    <script>
+        const passwordInput = document.getElementById('password');
+        const revealBtn = document.getElementById('reveal-btn');
+        const mainContainer = document.getElementById('main-container');
+
+        revealBtn.addEventListener('click', () => {
+            const password = passwordInput.value;
+            if (password === '15junio2025') {
+                // Limpia la pantalla
+                mainContainer.innerHTML = '';
+                // Carga el nuevo archivo HTML
+                window.location.replace("sorpresa2.html");
+                    }
+            else {
+                alert('Fecha incorrecta');
+            }
+        });
+    </script>
+</body>
+</html>
